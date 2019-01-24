@@ -43,6 +43,7 @@ namespace PoorMansTSqlFormatterLib.Formatters
             ExpandSelectStatements = false;
             UppercaseKeywords = true;
             BreakJoinOnSections = false;
+            IndentJoinConditions = true;
             HTMLColoring = false;
 			KeywordStandardization = false;
 			ExpandInLists = true;
@@ -78,8 +79,9 @@ namespace PoorMansTSqlFormatterLib.Formatters
 				else if (key == "ExpandCaseStatements") ExpandCaseStatements = Convert.ToBoolean(value);
                 else if (key == "ExpandSelectStatements") ExpandSelectStatements = Convert.ToBoolean(value);
 				else if (key == "UppercaseKeywords") UppercaseKeywords = Convert.ToBoolean(value);
-				else if (key == "BreakJoinOnSections") BreakJoinOnSections = Convert.ToBoolean(value);
-				else if (key == "HTMLColoring") HTMLColoring = Convert.ToBoolean(value);
+                else if (key == "BreakJoinOnSections") BreakJoinOnSections = Convert.ToBoolean(value);
+                else if (key == "IndentJoinConditions") IndentJoinConditions = Convert.ToBoolean(value);
+                else if (key == "HTMLColoring") HTMLColoring = Convert.ToBoolean(value);
 				else if (key == "KeywordStandardization") KeywordStandardization = Convert.ToBoolean(value);
 				else if (key == "ExpandInLists") ExpandInLists = Convert.ToBoolean(value);
 				else if (key == "NewClauseLineBreaks") NewClauseLineBreaks = Convert.ToInt32(value);
@@ -108,6 +110,7 @@ namespace PoorMansTSqlFormatterLib.Formatters
             if (ExpandSelectStatements != _defaultOptions.ExpandSelectStatements) overrides.Add("ExpandSelectStatements", ExpandSelectStatements.ToString());
             if (UppercaseKeywords != _defaultOptions.UppercaseKeywords) overrides.Add("UppercaseKeywords", UppercaseKeywords.ToString());
             if (BreakJoinOnSections != _defaultOptions.BreakJoinOnSections) overrides.Add("BreakJoinOnSections", BreakJoinOnSections.ToString());
+            if (IndentJoinConditions != _defaultOptions.IndentJoinConditions) overrides.Add("IndentJoinConditions", IndentJoinConditions.ToString());
             if (HTMLColoring != _defaultOptions.HTMLColoring) overrides.Add("HTMLColoring", HTMLColoring.ToString());
 			if (KeywordStandardization != _defaultOptions.KeywordStandardization) overrides.Add("KeywordStandardization", KeywordStandardization.ToString());
 			if (ExpandInLists != _defaultOptions.ExpandInLists) overrides.Add("ExpandInLists", ExpandInLists.ToString());
@@ -144,6 +147,7 @@ namespace PoorMansTSqlFormatterLib.Formatters
         public bool ExpandBetweenConditions { get; set; }
         public bool UppercaseKeywords { get; set; }
         public bool BreakJoinOnSections { get; set; }
+        public bool IndentJoinConditions { get; set; }
         public bool HTMLColoring { get; set; }
 		public bool KeywordStandardization { get; set; }
 		public bool ExpandInLists { get; set; }

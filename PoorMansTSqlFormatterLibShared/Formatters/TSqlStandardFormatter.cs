@@ -47,7 +47,7 @@ namespace PoorMansTSqlFormatterLib.Formatters
         }
 
         [Obsolete("Use the constructor with the TSqlStandardFormatterOptions parameter")]
-        public TSqlStandardFormatter(string indentString, int spacesPerTab, int maxLineWidth, bool expandCommaLists, bool trailingCommas, bool spaceAfterExpandedComma, bool expandBooleanExpressions, bool expandCaseStatements, bool expandSelectStatements, bool expandBetweenConditions, bool breakJoinOnSections, bool uppercaseKeywords, bool htmlColoring, bool keywordStandardization)
+        public TSqlStandardFormatter(string indentString, int spacesPerTab, int maxLineWidth, bool expandCommaLists, bool trailingCommas, bool spaceAfterExpandedComma, bool expandBooleanExpressions, bool expandCaseStatements, bool expandSelectStatements, bool expandBetweenConditions, bool breakJoinOnSections, bool IndentJoinConditions, bool uppercaseKeywords, bool htmlColoring, bool keywordStandardization)
         {
             Options = new TSqlStandardFormatterOptions
                 {
@@ -63,6 +63,7 @@ namespace PoorMansTSqlFormatterLib.Formatters
                     ExpandSelectStatements = expandSelectStatements,
                     UppercaseKeywords = uppercaseKeywords,
                     BreakJoinOnSections = breakJoinOnSections,
+                    IndentJoinConditions = IndentJoinConditions,
                     HTMLColoring = htmlColoring,
                     KeywordStandardization = keywordStandardization
                 };
@@ -258,10 +259,10 @@ namespace PoorMansTSqlFormatterLib.Formatters
                     if (Options.BreakJoinOnSections)
                         state.BreakExpected = true;
                     ProcessSqlNodeList(contentElement.ChildrenByName(SqlStructureConstants.ENAME_CONTAINER_OPEN), state);
-                    if (Options.BreakJoinOnSections)
+                    if (Options.BreakJoinOnSections && Options.IndentJoinConditions)
                       state.IncrementIndent();
                     ProcessSqlNodeList(contentElement.ChildrenByName(SqlStructureConstants.ENAME_CONTAINER_GENERALCONTENT), state);
-                    if (Options.BreakJoinOnSections)
+                    if (Options.BreakJoinOnSections && Options.IndentJoinConditions)
                         state.DecrementIndent();
                     break;
 

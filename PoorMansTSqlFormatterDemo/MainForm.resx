@@ -166,7 +166,7 @@
     <value>txt_Input</value>
   </data>
   <data name="&gt;&gt;txt_Input.Type" xml:space="preserve">
-    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.SelectableTextBox, PoorMansTSqlFormatterDemo, Version=1.6.12.21718, Culture=neutral, PublicKeyToken=null</value>
+    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.SelectableTextBox, PoorMansTSqlFormatterDemo, Version=1.6.12.24224, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;txt_Input.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -250,7 +250,7 @@
     <value>txt_TokenizedSql</value>
   </data>
   <data name="&gt;&gt;txt_TokenizedSql.Type" xml:space="preserve">
-    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.SelectableTextBox, PoorMansTSqlFormatterDemo, Version=1.6.12.21718, Culture=neutral, PublicKeyToken=null</value>
+    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.SelectableTextBox, PoorMansTSqlFormatterDemo, Version=1.6.12.24224, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;txt_TokenizedSql.Parent" xml:space="preserve">
     <value>groupBox2</value>
@@ -325,7 +325,7 @@
     <value>txt_ParsedXml</value>
   </data>
   <data name="&gt;&gt;txt_ParsedXml.Type" xml:space="preserve">
-    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.SelectableTextBox, PoorMansTSqlFormatterDemo, Version=1.6.12.21718, Culture=neutral, PublicKeyToken=null</value>
+    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.SelectableTextBox, PoorMansTSqlFormatterDemo, Version=1.6.12.24224, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;txt_ParsedXml.Parent" xml:space="preserve">
     <value>groupBox3</value>
@@ -466,7 +466,7 @@
     <value>webBrowser_OutputSql</value>
   </data>
   <data name="&gt;&gt;webBrowser_OutputSql.Type" xml:space="preserve">
-    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.CustomContentWebBrowser, PoorMansTSqlFormatterDemo, Version=1.6.12.21718, Culture=neutral, PublicKeyToken=null</value>
+    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.CustomContentWebBrowser, PoorMansTSqlFormatterDemo, Version=1.6.12.24224, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;webBrowser_OutputSql.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -559,7 +559,7 @@
     <value>NoControl</value>
   </data>
   <data name="radio_Formatting_Identity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 441</value>
+    <value>3, 464</value>
   </data>
   <data name="radio_Formatting_Identity.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 17</value>
@@ -615,6 +615,36 @@
   <data name="grp_Options.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="chk_IndentJoinConditions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_IndentJoinConditions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_IndentJoinConditions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 304</value>
+  </data>
+  <data name="chk_IndentJoinConditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="chk_IndentJoinConditions.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="chk_IndentJoinConditions.Text" xml:space="preserve">
+    <value>Indent Join Conditions</value>
+  </data>
+  <data name="&gt;&gt;chk_IndentJoinConditions.Name" xml:space="preserve">
+    <value>chk_IndentJoinConditions</value>
+  </data>
+  <data name="&gt;&gt;chk_IndentJoinConditions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_IndentJoinConditions.Parent" xml:space="preserve">
+    <value>grp_Options</value>
+  </data>
+  <data name="&gt;&gt;chk_IndentJoinConditions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="chk_ExpandSelectStatements.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -622,7 +652,7 @@
     <value>NoControl</value>
   </data>
   <data name="chk_ExpandSelectStatements.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 373</value>
+    <value>8, 396</value>
   </data>
   <data name="chk_ExpandSelectStatements.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 17</value>
@@ -643,7 +673,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_ExpandSelectStatements.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="chk_BreakJoinOnSections.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -673,7 +703,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_BreakJoinOnSections.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="chk_ExpandInLists.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -703,7 +733,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_ExpandInLists.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="chk_EnableKeywordStandardization.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -712,7 +742,7 @@
     <value>NoControl</value>
   </data>
   <data name="chk_EnableKeywordStandardization.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 350</value>
+    <value>8, 373</value>
   </data>
   <data name="chk_EnableKeywordStandardization.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 17</value>
@@ -733,7 +763,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_EnableKeywordStandardization.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="txt_ClauseBreaks.Location" type="System.Drawing.Point, System.Drawing">
     <value>116, 95</value>
@@ -757,7 +787,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;txt_ClauseBreaks.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="lbl_ClauseBreaks.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -787,7 +817,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;lbl_ClauseBreaks.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="txt_StatementBreaks.Location" type="System.Drawing.Point, System.Drawing">
     <value>116, 71</value>
@@ -811,7 +841,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;txt_StatementBreaks.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="lbl_StatementBreaks.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -841,7 +871,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;lbl_StatementBreaks.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="txt_MaxWidth.Location" type="System.Drawing.Point, System.Drawing">
     <value>77, 46</value>
@@ -865,7 +895,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;txt_MaxWidth.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="lbl_MaxWidth.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -895,7 +925,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;lbl_MaxWidth.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="txt_IndentWidth.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 20</value>
@@ -919,7 +949,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;txt_IndentWidth.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="lbl_IndentWidth.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -949,7 +979,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;lbl_IndentWidth.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="txt_Indent.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 20</value>
@@ -973,7 +1003,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;txt_Indent.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="lbl_Indent.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1003,7 +1033,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;lbl_Indent.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="chk_ExpandBetweenConditions.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1033,7 +1063,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_ExpandBetweenConditions.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="chk_SpaceAfterComma.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1063,7 +1093,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_SpaceAfterComma.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="chk_Coloring.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1072,7 +1102,7 @@
     <value>NoControl</value>
   </data>
   <data name="chk_Coloring.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 327</value>
+    <value>8, 350</value>
   </data>
   <data name="chk_Coloring.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 17</value>
@@ -1093,7 +1123,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_Coloring.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="chk_UppercaseKeywords.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1102,7 +1132,7 @@
     <value>NoControl</value>
   </data>
   <data name="chk_UppercaseKeywords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 304</value>
+    <value>8, 327</value>
   </data>
   <data name="chk_UppercaseKeywords.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 17</value>
@@ -1123,7 +1153,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_UppercaseKeywords.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="chk_ExpandCaseStatements.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1153,7 +1183,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_ExpandCaseStatements.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="chk_ExpandBooleanExpressions.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1183,7 +1213,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_ExpandBooleanExpressions.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="chk_TrailingCommas.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1213,7 +1243,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_TrailingCommas.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="chk_ExpandCommaLists.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1243,7 +1273,7 @@
     <value>grp_Options</value>
   </data>
   <data name="&gt;&gt;chk_ExpandCommaLists.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="grp_Options.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1252,7 +1282,7 @@
     <value>43, 26</value>
   </data>
   <data name="grp_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 409</value>
+    <value>210, 432</value>
   </data>
   <data name="grp_Options.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1309,7 +1339,7 @@
     <value>Fill</value>
   </data>
   <data name="grp_IdentityFormattingOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 464</value>
+    <value>43, 487</value>
   </data>
   <data name="grp_IdentityFormattingOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 55</value>
@@ -1339,7 +1369,7 @@
     <value>NoControl</value>
   </data>
   <data name="radio_Formatting_Obfuscate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 525</value>
+    <value>3, 548</value>
   </data>
   <data name="radio_Formatting_Obfuscate.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 17</value>
@@ -1519,7 +1549,7 @@
     <value>Fill</value>
   </data>
   <data name="grp_ObfuscationOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 548</value>
+    <value>43, 571</value>
   </data>
   <data name="grp_ObfuscationOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 148</value>
@@ -1552,7 +1582,7 @@
     <value>6</value>
   </data>
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 699</value>
+    <value>256, 722</value>
   </data>
   <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1582,7 +1612,7 @@
     <value>238, 580</value>
   </data>
   <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 718</value>
+    <value>262, 741</value>
   </data>
   <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1807,19 +1837,19 @@
     <value>englishToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
-    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.RadioToolStripMenuItem, PoorMansTSqlFormatterDemo, Version=1.6.12.21718, Culture=neutral, PublicKeyToken=null</value>
+    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.RadioToolStripMenuItem, PoorMansTSqlFormatterDemo, Version=1.6.12.24224, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;frenchToolStripMenuItem.Name" xml:space="preserve">
     <value>frenchToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;frenchToolStripMenuItem.Type" xml:space="preserve">
-    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.RadioToolStripMenuItem, PoorMansTSqlFormatterDemo, Version=1.6.12.21718, Culture=neutral, PublicKeyToken=null</value>
+    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.RadioToolStripMenuItem, PoorMansTSqlFormatterDemo, Version=1.6.12.24224, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;spanishToolStripMenuItem.Name" xml:space="preserve">
     <value>spanishToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;spanishToolStripMenuItem.Type" xml:space="preserve">
-    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.RadioToolStripMenuItem, PoorMansTSqlFormatterDemo, Version=1.6.12.21718, Culture=neutral, PublicKeyToken=null</value>
+    <value>PoorMansTSqlFormatterDemo.FrameworkClassReplacements.RadioToolStripMenuItem, PoorMansTSqlFormatterDemo, Version=1.6.12.24224, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutToolStripMenuItem</value>

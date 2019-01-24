@@ -50,6 +50,7 @@ namespace PoorMansTSqlFormatterTests
             Assert.IsFalse(options.ExpandSelectStatements);
             Assert.IsTrue(options.ExpandBetweenConditions);
             Assert.IsFalse(options.BreakJoinOnSections);
+            Assert.IsTrue(options.IndentJoinConditions);
             Assert.IsTrue(options.UppercaseKeywords);
             Assert.IsFalse(options.HTMLColoring);
             Assert.IsFalse(options.KeywordStandardization);
@@ -78,6 +79,7 @@ namespace PoorMansTSqlFormatterTests
                 + ",ExpandSelectStatements=true"
                 + ",ExpandBetweenConditions=false"
                 + ",BreakJoinOnSections=true"
+                + ",IndentJoinConditions=false"
                 + ",UppercaseKeywords=false"
                 + ",HTMLColoring=true"
                 + ",KeywordStandardization=true"
@@ -94,6 +96,7 @@ namespace PoorMansTSqlFormatterTests
             Assert.IsTrue(options.ExpandSelectStatements);
             Assert.IsFalse(options.ExpandBetweenConditions);
             Assert.IsTrue(options.BreakJoinOnSections);
+            Assert.IsFalse(options.IndentJoinConditions);
             Assert.IsFalse(options.UppercaseKeywords);
             Assert.IsTrue(options.HTMLColoring);
             Assert.IsTrue(options.KeywordStandardization);
@@ -135,6 +138,7 @@ namespace PoorMansTSqlFormatterTests
             Assert.AreEqual(expected.ExpandSelectStatements, actual.ExpandSelectStatements);
             Assert.AreEqual(expected.ExpandBetweenConditions, actual.ExpandBetweenConditions);
             Assert.AreEqual(expected.BreakJoinOnSections, actual.BreakJoinOnSections);
+            Assert.AreEqual(expected.IndentJoinConditions, actual.IndentJoinConditions);
             Assert.AreEqual(expected.UppercaseKeywords, actual.UppercaseKeywords);
             Assert.AreEqual(expected.HTMLColoring, actual.HTMLColoring);
             Assert.AreEqual(expected.KeywordStandardization, actual.KeywordStandardization);

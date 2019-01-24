@@ -241,7 +241,22 @@ namespace PoorMansTSqlFormatterDemo.Properties {
                 this["BreakJoinOnSections"] = value;
             }
         }
-        
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool IndentJoinConditions
+        {
+            get
+            {
+                return ((bool)(this["IndentJoinConditions"]));
+            }
+            set
+            {
+                this["IndentJoinConditions"] = value;
+            }
+        }
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]

@@ -102,6 +102,7 @@ namespace PoorMansTSqlFormatterDemo
 			chk_ExpandBetweenConditions.Checked = Properties.Settings.Default.ExpandBetweenConditions;
 			chk_ExpandInLists.Checked = Properties.Settings.Default.ExpandInLists;
 			chk_BreakJoinOnSections.Checked = Properties.Settings.Default.BreakJoinOnSections;
+            chk_IndentJoinConditions.Checked = Properties.Settings.Default.IndentJoinConditions;
             chk_UppercaseKeywords.Checked = Properties.Settings.Default.UppercaseKeywords;
             chk_Coloring.Checked = Properties.Settings.Default.StandardColoring;
             chk_EnableKeywordStandardization.Checked = Properties.Settings.Default.EnableKeywordStandardization;
@@ -148,6 +149,7 @@ namespace PoorMansTSqlFormatterDemo
 			Properties.Settings.Default.ExpandBetweenConditions = chk_ExpandBetweenConditions.Checked;
 			Properties.Settings.Default.ExpandInLists = chk_ExpandInLists.Checked;
 			Properties.Settings.Default.BreakJoinOnSections = chk_BreakJoinOnSections.Checked;
+            Properties.Settings.Default.IndentJoinConditions = chk_IndentJoinConditions.Checked;
             Properties.Settings.Default.UppercaseKeywords = chk_UppercaseKeywords.Checked;
             Properties.Settings.Default.StandardColoring = chk_Coloring.Checked;
             Properties.Settings.Default.EnableKeywordStandardization = chk_EnableKeywordStandardization.Checked;
@@ -184,6 +186,7 @@ namespace PoorMansTSqlFormatterDemo
 						ExpandBetweenConditions = chk_ExpandBetweenConditions.Checked,
 						ExpandInLists = chk_ExpandInLists.Checked,
 						BreakJoinOnSections = chk_BreakJoinOnSections.Checked,
+                        IndentJoinConditions = chk_IndentJoinConditions.Checked,
                         UppercaseKeywords = chk_UppercaseKeywords.Checked,
                         HTMLColoring = chk_Coloring.Checked,
 						KeywordStandardization = chk_EnableKeywordStandardization.Checked,

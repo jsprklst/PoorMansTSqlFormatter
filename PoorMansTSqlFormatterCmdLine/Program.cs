@@ -57,6 +57,7 @@ namespace PoorMansTSqlFormatterCmdLine
                     ExpandSelectStatements = false,
                     ExpandCommaLists = true,
                     BreakJoinOnSections = false,
+                    IndentJoinConditions = true,
                     UppercaseKeywords = true,
 					ExpandInLists = true
                 };
@@ -86,8 +87,9 @@ namespace PoorMansTSqlFormatterCmdLine
               .Add("ecs|expandCaseStatements", delegate(string v) { options.ExpandCaseStatements = v != null; })
               .Add("ess|expandSelectStatements", delegate (string v) { options.ExpandSelectStatements = v != null; })
 			  .Add("ecl|expandCommaLists", delegate(string v) { options.ExpandCommaLists = v != null; })
-			  .Add("eil|expandInLists", delegate(string v) { options.ExpandInLists = v != null; })
-			  .Add("bjo|breakJoinOnSections", delegate(string v) { options.BreakJoinOnSections = v != null; })
+              .Add("eil|expandInLists", delegate (string v) { options.ExpandInLists = v != null; })
+              .Add("bjo|breakJoinOnSections", delegate (string v) { options.BreakJoinOnSections = v != null; })
+              .Add("ijc|indentJoinConditions", delegate (string v) { options.IndentJoinConditions = v != null; })
               .Add("uk|uppercaseKeywords", delegate(string v) { options.UppercaseKeywords = v != null; })
               .Add("sk|standardizeKeywords", delegate(string v) { options.KeywordStandardization = v != null; })
 

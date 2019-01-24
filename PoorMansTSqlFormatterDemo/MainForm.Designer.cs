@@ -68,6 +68,7 @@ namespace PoorMansTSqlFormatterDemo
             this.radio_Formatting_Identity = new System.Windows.Forms.RadioButton();
             this.radio_Formatting_Standard = new System.Windows.Forms.RadioButton();
             this.grp_Options = new System.Windows.Forms.GroupBox();
+            this.chk_IndentJoinConditions = new System.Windows.Forms.CheckBox();
             this.chk_ExpandSelectStatements = new System.Windows.Forms.CheckBox();
             this.chk_BreakJoinOnSections = new System.Windows.Forms.CheckBox();
             this.chk_ExpandInLists = new System.Windows.Forms.CheckBox();
@@ -294,6 +295,7 @@ namespace PoorMansTSqlFormatterDemo
             // grp_Options
             // 
             resources.ApplyResources(this.grp_Options, "grp_Options");
+            this.grp_Options.Controls.Add(this.chk_IndentJoinConditions);
             this.grp_Options.Controls.Add(this.chk_ExpandSelectStatements);
             this.grp_Options.Controls.Add(this.chk_BreakJoinOnSections);
             this.grp_Options.Controls.Add(this.chk_ExpandInLists);
@@ -318,6 +320,13 @@ namespace PoorMansTSqlFormatterDemo
             this.grp_Options.Controls.Add(this.chk_ExpandCommaLists);
             this.grp_Options.Name = "grp_Options";
             this.grp_Options.TabStop = false;
+            // 
+            // chk_IndentJoinConditions
+            // 
+            resources.ApplyResources(this.chk_IndentJoinConditions, "chk_IndentJoinConditions");
+            this.chk_IndentJoinConditions.Name = "chk_IndentJoinConditions";
+            this.chk_IndentJoinConditions.UseVisualStyleBackColor = true;
+            this.chk_IndentJoinConditions.CheckedChanged += new System.EventHandler(this.FormatSettingsControlChanged);
             // 
             // chk_ExpandSelectStatements
             // 
@@ -734,6 +743,7 @@ namespace PoorMansTSqlFormatterDemo
 		private System.Windows.Forms.TextBox txt_StatementBreaks;
 		private System.Windows.Forms.Label lbl_StatementBreaks;
         private System.Windows.Forms.CheckBox chk_ExpandSelectStatements;
+        private System.Windows.Forms.CheckBox chk_IndentJoinConditions;
     }
 }
 
